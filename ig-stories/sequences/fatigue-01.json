@@ -1,0 +1,85 @@
+{
+  "id": "fatigue-01",
+  "order": 12,
+  "title": "fatigué - tired",
+  "level": "A1",
+  "scene": "apartment",
+  "approved": false,
+  "reviewed_by": "",
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“Tired”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "fatigué",
+      "pron": "fa-tee-GAY",
+      "en": "tired",
+      "pos": "adjective · feminine: fatiguée",
+      "example": {
+        "fr": "Je suis fatigué.",
+        "pron": "zhuh swee fa-tee-GAY",
+        "en": "I'm tired."
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "apartment",
+      "title": "Fatigué · Tired",
+      "lines": [
+        {
+          "speaker": "Marinette",
+          "fr": "Tu es fatigué, Adrien ?",
+          "en": "Are you tired, Adrien?"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Oui, je suis très fatigué.",
+          "en": "Yes, I'm very tired."
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Moi aussi, je suis fatiguée.",
+          "en": "Me too, I'm tired."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "fatigué",
+      "question": "What does this mean?",
+      "options": [
+        "Hungry",
+        "Happy",
+        "Late",
+        "Tired"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "reveal",
+      "answer_label": "D",
+      "fr": "fatigué",
+      "pron": "fa-tee-GAY",
+      "en": "tired",
+      "note": [
+        "A woman adds an e: je suis fatiguée.",
+        "It sounds the same when spoken."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: more tiny French soon!"
+    }
+  ]
+}

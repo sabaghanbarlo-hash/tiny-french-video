@@ -1,0 +1,55 @@
+name: Approve and schedule Stories
+
+on:
+  workflow_dispatch:
+    inputs:
+      reviewer:
+        description: "Your name (recorded as the person who reviewed the French)"
+        required: true
+      start_date:
+        description: "First publish date, YYYY-MM-DD (UTC)"
+        required: true
+      time_utc:
+        description: "Time of the first post each day (UTC, HH:MM)"
+        default: "14:00"
+      per_day:
+        description: "Sequences per day"
+        default: "1"
+      dry_run:
+        description: "Dry run (true = only show the plan)"
+        default: "true"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: schedule-stories
+  cancel-in-progress: false
+
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Schedule
+        env:
+          REVIEWER: ${{ github.event.inputs.reviewer }}
+          START: ${{ github.event.inputs.start_date }}
+          TIME: ${{ github.event.inputs.time_utc }}
+          PER_DAY: ${{ github.event.inputs.per_day }}
+          DRY: ${{ github.event.inputs.dry_run }}
+        run: |
+          args=(--reviewer "$REVIEWER" --start "$START" --time "$TIME" --per-day "$PER_DAY")
+          if [ "$DRY" = "true" ]; then args+=(--dry-run); fi
+          python schedule_stories.py "${args[@]}"
+      - name: Commit
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "tiny-french-bot"
+          git config user.email "tiny-french-bot@users.noreply.github.com"
+          git add ig-stories/sequences
+          git commit -m "Approve and schedule Stories [skip ci]" || echo "nothing to commit"
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep 5; done

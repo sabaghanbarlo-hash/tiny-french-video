@@ -1,0 +1,85 @@
+{
+  "id": "ou-01",
+  "order": 10,
+  "title": "où - where",
+  "level": "A1",
+  "scene": "station",
+  "approved": false,
+  "reviewed_by": "",
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“Where”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "où",
+      "pron": "OO",
+      "en": "where",
+      "pos": "question word",
+      "example": {
+        "fr": "Où est le café ?",
+        "pron": "OO ay luh ka-FAY",
+        "en": "Where is the café?"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "station",
+      "title": "Où · Where",
+      "lines": [
+        {
+          "speaker": "Marinette",
+          "fr": "Où est la gare ?",
+          "en": "Where is the station?"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Elle est là, devant nous !",
+          "en": "It's right there, in front of us!"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Ah oui, merci !",
+          "en": "Oh yes, thanks!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "où",
+      "question": "What does this mean?",
+      "options": [
+        "When",
+        "Who",
+        "Where",
+        "Why"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "reveal",
+      "answer_label": "C",
+      "fr": "où",
+      "pron": "OO",
+      "en": "where",
+      "note": [
+        "où (with the accent) = where.",
+        "ou (no accent) = or."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: combien (how much)"
+    }
+  ]
+}

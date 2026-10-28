@@ -1,0 +1,85 @@
+{
+  "id": "merci-01",
+  "order": 2,
+  "title": "merci - thank you",
+  "level": "A1",
+  "scene": "cafe",
+  "approved": false,
+  "reviewed_by": "",
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“Thank you”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "merci",
+      "pron": "mehr-SEE",
+      "en": "thank you",
+      "pos": "expression",
+      "example": {
+        "fr": "Merci beaucoup !",
+        "pron": "mehr-SEE boh-KOO",
+        "en": "Thank you very much!"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "cafe",
+      "title": "Merci · Thank you",
+      "lines": [
+        {
+          "speaker": "Adrien",
+          "fr": "Voilà ton café !",
+          "en": "Here's your coffee!"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Merci, Adrien !",
+          "en": "Thank you, Adrien!"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Avec plaisir.",
+          "en": "My pleasure."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "merci",
+      "question": "What does this mean?",
+      "options": [
+        "Sorry",
+        "Hello",
+        "Thank you",
+        "See you soon"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "reveal",
+      "answer_label": "C",
+      "fr": "merci",
+      "pron": "mehr-SEE",
+      "en": "thank you",
+      "note": [
+        "Merci beaucoup = thank you very much.",
+        "Reply with de rien or avec plaisir."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: s'il vous plaît (please)"
+    }
+  ]
+}

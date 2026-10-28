@@ -1,0 +1,85 @@
+{
+  "id": "combien-01",
+  "order": 11,
+  "title": "combien - how much",
+  "level": "A1",
+  "scene": "market",
+  "approved": false,
+  "reviewed_by": "",
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“How much”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "combien",
+      "pron": "kohm-BYAN",
+      "en": "how much",
+      "pos": "question word · also “how many”",
+      "example": {
+        "fr": "C'est combien ?",
+        "pron": "say kohm-BYAN",
+        "en": "How much is it?"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "market",
+      "title": "Combien · How much",
+      "lines": [
+        {
+          "speaker": "Marinette",
+          "fr": "C'est combien, les pommes ?",
+          "en": "How much are the apples?"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Trois euros le kilo.",
+          "en": "Three euros a kilo."
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "D'accord, j'en prends un kilo !",
+          "en": "OK, I'll take a kilo!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "combien",
+      "question": "What does this mean?",
+      "options": [
+        "How old",
+        "Where",
+        "When",
+        "How much"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "reveal",
+      "answer_label": "D",
+      "fr": "combien",
+      "pron": "kohm-BYAN",
+      "en": "how much",
+      "note": [
+        "C'est combien ? is the shopping question.",
+        "Combien de + noun = how many: combien de pommes ?"
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: fatigué (tired)"
+    }
+  ]
+}

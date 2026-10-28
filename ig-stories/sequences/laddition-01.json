@@ -1,0 +1,85 @@
+{
+  "id": "laddition-01",
+  "order": 6,
+  "title": "l'addition - the bill",
+  "level": "A1",
+  "scene": "restaurant",
+  "approved": false,
+  "reviewed_by": "",
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“The bill”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "l'addition",
+      "pron": "la-dee-SYOHN",
+      "en": "the bill",
+      "pos": "noun · feminine · US: “the check”",
+      "example": {
+        "fr": "L'addition, s'il vous plaît.",
+        "pron": "la-dee-SYOHN, seel voo PLEH",
+        "en": "The bill, please."
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "restaurant",
+      "title": "L'addition · The bill",
+      "lines": [
+        {
+          "speaker": "Adrien",
+          "fr": "L'addition, s'il vous plaît !",
+          "en": "The bill, please!"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Tout de suite, monsieur.",
+          "en": "Right away, sir."
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Merci !",
+          "en": "Thank you!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "l'addition",
+      "question": "What does this mean?",
+      "options": [
+        "The menu",
+        "The bill",
+        "The table",
+        "The water"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "reveal",
+      "answer_label": "B",
+      "fr": "l'addition",
+      "pron": "la-dee-SYOHN",
+      "en": "the bill",
+      "note": [
+        "l'addition = la + addition (la drops its a).",
+        "Do not confuse it with the English word “addition”."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: de rien (you're welcome)"
+    }
+  ]
+}

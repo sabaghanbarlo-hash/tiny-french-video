@@ -1,0 +1,85 @@
+{
+  "id": "jai-faim-01",
+  "order": 9,
+  "title": "j'ai faim - I'm hungry",
+  "level": "A1",
+  "scene": "street",
+  "approved": false,
+  "reviewed_by": "",
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“I'm hungry”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "j'ai faim",
+      "pron": "zhay FAN",
+      "en": "I'm hungry",
+      "pos": "literally “I have hunger”",
+      "example": {
+        "fr": "J'ai faim, et toi ?",
+        "pron": "zhay FAN, ay TWAH",
+        "en": "I'm hungry, and you?"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "street",
+      "title": "J'ai faim · I'm hungry",
+      "lines": [
+        {
+          "speaker": "Adrien",
+          "fr": "J'ai faim, et toi ?",
+          "en": "I'm hungry, and you?"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Moi aussi ! On mange ?",
+          "en": "Me too! Shall we eat?"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Oui, allons au restaurant !",
+          "en": "Yes, let's go to the restaurant!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "j'ai faim",
+      "question": "What does this mean?",
+      "options": [
+        "I'm tired",
+        "I'm cold",
+        "I'm hungry",
+        "I'm late"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "reveal",
+      "answer_label": "C",
+      "fr": "j'ai faim",
+      "pron": "zhay FAN",
+      "en": "I'm hungry",
+      "note": [
+        "French says “I have hunger”: j'ai faim.",
+        "Never say je suis faim."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: où (where)"
+    }
+  ]
+}

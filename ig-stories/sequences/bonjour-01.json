@@ -1,0 +1,85 @@
+{
+  "id": "bonjour-01",
+  "order": 1,
+  "title": "bonjour - hello",
+  "level": "A1",
+  "scene": "street",
+  "approved": false,
+  "reviewed_by": "",
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“Hello”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "bonjour",
+      "pron": "bohn-ZHOOR",
+      "en": "hello",
+      "pos": "greeting · literally “good day”",
+      "example": {
+        "fr": "Bonjour, tout le monde !",
+        "pron": "bohn-ZHOOR, too luh MOHND",
+        "en": "Hello, everyone!"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "street",
+      "title": "Bonjour · Hello",
+      "lines": [
+        {
+          "speaker": "Adrien",
+          "fr": "Bonjour, Marinette !",
+          "en": "Hello, Marinette!"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Bonjour, Adrien ! Ça va ?",
+          "en": "Hello, Adrien! How are you?"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Ça va bien, merci !",
+          "en": "I'm fine, thanks!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "bonjour",
+      "question": "What does this mean?",
+      "options": [
+        "Goodbye",
+        "Hello",
+        "Thank you",
+        "Please"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "reveal",
+      "answer_label": "B",
+      "fr": "bonjour",
+      "pron": "bohn-ZHOOR",
+      "en": "hello",
+      "note": [
+        "Bonjour is for the daytime.",
+        "In the evening, switch to bonsoir."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: merci (thank you)"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+name: Publish Stories
+
+on:
+  schedule:
+    - cron: "7 * * * *"   # hourly: publishes only approved sequences whose publish_at has passed
+  workflow_dispatch:
+    inputs:
+      sequence:
+        description: "Sequence id to publish now (must be approved). Empty = publish whatever is due."
+        default: ""
+      dry_run:
+        description: "Dry run (true = post nothing, just show what would be posted)"
+        default: "true"
+      check_only:
+        description: "Only verify the Composio key + that the connected account is @tiny.french (true/false)"
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-stories
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Publish
+        env:
+          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+          PAGES_BASE: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+          IG_ACCOUNT: ${{ vars.IG_ACCOUNT }}
+          IG_EXPECT_USERNAME: ${{ vars.IG_EXPECT_USERNAME }}
+          SEQ: ${{ github.event.inputs.sequence }}
+          DRY: ${{ github.event.inputs.dry_run }}
+          CHECK: ${{ github.event.inputs.check_only }}
+        run: |
+          if [ "$CHECK" = "true" ]; then args="--check"
+          elif [ -n "$SEQ" ]; then args="--sequence $SEQ"
+          else args="--due"; fi
+          if [ "$DRY" = "true" ] && [ "$CHECK" != "true" ]; then args="$args --dry-run"; fi
+          python -u publish_story.py $args
+      - name: Save publishing record
+        if: always()
+        run: |
+          git config user.name "tiny-french-bot"
+          git config user.email "tiny-french-bot@users.noreply.github.com"
+          git add ig-stories/posted.json 2>/dev/null || true
+          git commit -m "Update Story publishing record [skip ci]" || echo "nothing to commit"
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep 5; done

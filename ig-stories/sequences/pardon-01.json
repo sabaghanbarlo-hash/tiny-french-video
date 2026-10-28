@@ -1,0 +1,85 @@
+{
+  "id": "pardon-01",
+  "order": 4,
+  "title": "pardon - excuse me",
+  "level": "A1",
+  "scene": "station",
+  "approved": false,
+  "reviewed_by": "",
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“Excuse me”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "pardon",
+      "pron": "par-DOHN",
+      "en": "excuse me",
+      "pos": "also “sorry”",
+      "example": {
+        "fr": "Pardon, je suis en retard !",
+        "pron": "par-DOHN, zhuh swee zahn ruh-TAR",
+        "en": "Sorry, I'm late!"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "station",
+      "title": "Pardon · Excuse me",
+      "lines": [
+        {
+          "speaker": "Marinette",
+          "fr": "Pardon, où est le métro ?",
+          "en": "Excuse me, where is the metro?"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Là-bas, à droite.",
+          "en": "Over there, on the right."
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Merci beaucoup !",
+          "en": "Thank you very much!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "pardon",
+      "question": "What does this mean?",
+      "options": [
+        "Excuse me",
+        "Thank you",
+        "Good night",
+        "See you soon"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "reveal",
+      "answer_label": "A",
+      "fr": "pardon",
+      "pron": "par-DOHN",
+      "en": "excuse me",
+      "note": [
+        "pardon opens a question to a stranger, or says sorry after a bump.",
+        "The final -on is a nasal sound."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: un croissant"
+    }
+  ]
+}

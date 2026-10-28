@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stories Studio - Tiny French</title>
+<style>
+  :root { --brand:#5f78b4; --ink:#2e3040; --soft:#545660; --bg:#f4f7fd; --card:#fff; --ok:#3f8f5a; --warn:#b7791f; --bad:#c0392b; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#e9edf6; --soft:#b9c0d0; --bg:#15181f; --card:#1f2430; --brand:#8aa2da; } }
+  body { font-family: system-ui, sans-serif; background:var(--bg); color:var(--ink); margin:0; padding:16px; max-width:980px; margin-inline:auto; }
+  h1 { color:var(--brand); margin:.2em 0; } h2 { margin:.2em 0; }
+  .seq { background:var(--card); border-radius:16px; padding:16px; margin:18px 0; box-shadow:0 2px 10px #0002; }
+  .badge { display:inline-block; padding:2px 10px; border-radius:99px; font-size:.8rem; color:#fff; margin-right:6px; }
+  .ready { background:var(--ok); } .needs_review { background:var(--warn); } .blocked { background:var(--bad); }
+  .slides { display:flex; gap:12px; overflow-x:auto; padding:8px 0; }
+  .slide { flex:0 0 200px; } .slide img, .slide video { width:200px; aspect-ratio:9/16; object-fit:cover; border-radius:12px; background:#0003; }
+  .slide small { display:block; color:var(--soft); margin-top:4px; }
+  ul { margin:.3em 0 .6em 1.2em; padding:0; } li.ok::marker { content:"OK  "; color:var(--ok); } li.fail::marker { content:"FAIL  "; color:var(--bad); }
+  a { color:var(--brand); } code { background:#0001; padding:1px 5px; border-radius:4px; }
+  .note { color:var(--soft); font-size:.9rem; }
+</style>
+</head>
+<body>
+<h1>Stories Studio</h1>
+<p class="note">Review rendered Story sequences before anything is posted. Nothing is published from this page. To change text, edit the sequence JSON on GitHub; the Render Stories workflow re-renders and updates this page.</p>
+<p id="repo-links" class="note"></p>
+<div id="out">Loading...</div>
+<script>
+const $ = (t, props = {}, kids = []) => { const e = Object.assign(document.createElement(t), props); kids.forEach(k => e.append(k)); return e; };
+const [owner, repo] = [location.hostname.split(".")[0], location.pathname.split("/")[1]];
+const gh = `https://github.com/${owner}/${repo}`;
+document.getElementById("repo-links").append(
+  "Edit: ", $("a", {href: `${gh}/tree/main/ig-stories/sequences`, textContent: "sequence files"}), " | ",
+  $("a", {href: `${gh}/actions/workflows/render-stories.yml`, textContent: "Render Stories"}), " | ",
+  $("a", {href: `${gh}/actions/workflows/publish-stories.yml`, textContent: "Publish Stories"}), " | ",
+  $("a", {href: `${gh}/actions/workflows/schedule-stories.yml`, textContent: "Approve and schedule"}));
+async function j(u) { const r = await fetch(u, {cache: "no-store"}); if (!r.ok) throw new Error(u + " " + r.status); return r.json(); }
+function list(items, cls) { return $("ul", {}, items.map(t => $("li", {className: cls || "", textContent: t}))); }
+(async () => {
+  const out = document.getElementById("out"); out.textContent = "";
+  let index;
+  try { index = await j("story-media/index.json"); } catch (e) { out.textContent = "No rendered Stories yet. Run the Render Stories workflow."; return; }
+  for (const s of index) {
+    const m = await j(`story-media/${s.id}/manifest.json`);
+    const box = $("div", {className: "seq"});
+    box.append($("h2", {textContent: `${m.title} (${m.id})`}),
+      $("span", {className: "badge " + m.qc.status, textContent: m.qc.status.replace("_", " ")}),
+      $("span", {className: "note", textContent: `Level ${m.level} | approved: ${m.approved ? "yes" : "no"} | reviewed by: ${m.reviewed_by || "-"} | publish_at: ${m.publish_at || "not scheduled"} (${m.timezone})`}));
+    const row = $("div", {className: "slides"});
+    for (const sl of m.slides) {
+      const base = `story-media/${m.id}/`;
+      const media = sl.kind === "video" ? $("video", {src: base + sl.file, poster: base + sl.poster, controls: true, playsInline: true}) : $("img", {src: base + sl.file, alt: sl.type});
+      row.append($("div", {className: "slide"}, [media, $("small", {textContent: `${sl.n}. ${sl.type}` + (sl.kind === "video" ? ` | ${sl.duration}s | audio: ${sl.audio}` : "")})]));
+    }
+    box.append(row);
+    box.append($("h3", {textContent: "French for review"}));
+    const fr = [];
+    for (const sl of m.slides) {
+      const c = sl.content || {};
+      if (c.fr) fr.push(`${sl.n}. ${c.fr}${c.pron ? " (" + c.pron + ")" : ""}${c.en ? " = " + c.en : ""}`);
+      if (c.example) fr.push(`${sl.n}. ${c.example.fr} ${c.example.pron ? "(" + c.example.pron + ") " : ""}= ${c.example.en}`);
+      (c.lines || []).forEach(l => fr.push(`${sl.n}. ${l.speaker}: ${l.fr} = ${l.en}`));
+    }
+    box.append(list(fr));
+    if (m.qc.errors.length) box.append($("h3", {textContent: "Errors (block publishing)"}), list(m.qc.errors, "fail"));
+    if (m.qc.warnings.length) box.append($("h3", {textContent: "Warnings"}), list(m.qc.warnings));
+    box.append($("h3", {textContent: "Checks run"}), list(m.qc.checks.map(c => c.check), "ok"));
+    box.append($("h3", {textContent: "Uncertain - needs a human"}), list(m.qc.uncertain));
+    box.append($("p", {className: "note", textContent: m.qc.notes.join(" ")}));
+    box.append($("h3", {textContent: "Instagram API limits"}), list(m.api_limits));
+    if (m.manual_steps.length) box.append($("h3", {textContent: "Optional manual steps"}), list(m.manual_steps));
+    box.append($("p", {className: "note", textContent: "To approve and schedule: run the Approve and schedule workflow (or set approved, reviewed_by and publish_at in the sequence JSON and commit)."}));
+    out.append(box);
+  }
+})().catch(e => { document.getElementById("out").textContent = "Could not load: " + e.message; });
+</script>
+</body>
+</html>

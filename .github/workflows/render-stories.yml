@@ -1,0 +1,110 @@
+name: Render Stories
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "ig-stories/sequences/**"
+      - "ig-stories/config.json"
+      - "storystudio.py"
+      - "small.py"
+      - "sprites.py"
+      - "requirements.txt"
+      - "docs/**"
+  workflow_dispatch:
+    inputs:
+      sequence:
+        description: "Sequence id (e.g. bonjour-01), several ids separated by commas, or 'all'"
+        default: "all"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: render
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Decide what to render
+        id: what
+        env:
+          EVENT: ${{ github.event_name }}
+          INPUT: ${{ github.event.inputs.sequence }}
+          BEFORE: ${{ github.event.before }}
+          SHA: ${{ github.sha }}
+        run: |
+          SEQ="${INPUT:-all}"
+          if [ "$EVENT" = "push" ]; then
+            if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$BEFORE" 2>/dev/null; then
+              SEQ=all
+            else
+              CHANGED="$(git diff --name-only "$BEFORE" "$SHA")"
+              if echo "$CHANGED" | grep -Eq '^(storystudio.py|small.py|sprites.py|requirements.txt|ig-stories/config.json)$'; then
+                SEQ=all
+              else
+                SEQ="$(echo "$CHANGED" | grep -E '^ig-stories/sequences/.*\.json$' | xargs -r -n1 basename | sed 's/\.json$//' | paste -sd, - || true)"
+              fi
+            fi
+          fi
+          echo "Rendering: ${SEQ:-nothing (no sequence changed)}"
+          echo "seq=$SEQ" >> "$GITHUB_OUTPUT"
+      - name: System dependencies
+        if: steps.what.outputs.seq != ''
+        run: |
+          sudo rm -f /etc/apt/sources.list.d/microsoft-prod.list /etc/apt/sources.list.d/microsoft-prod.sources /etc/apt/sources.list.d/mono-official-stable.list
+          ok=0
+          for i in 1 2 3; do
+            sudo timeout 120 apt-get update -y -o Acquire::Retries=3 -o Acquire::http::Timeout=20 || true
+            if sudo timeout 240 apt-get install -y --no-install-recommends -o Acquire::http::Timeout=20 ffmpeg fonts-dejavu-core fonts-liberation; then ok=1; break; fi
+            echo "apt attempt $i failed or timed out, retrying..."; sudo pkill -f apt-get || true; sudo dpkg --configure -a || true; sleep 10
+          done
+          if [ "$ok" != 1 ]; then echo "::error::apt install of ffmpeg/fonts failed after 3 attempts - just re-run the workflow"; exit 1; fi
+          ffmpeg -version | head -1
+      - uses: actions/setup-python@v5
+        if: steps.what.outputs.seq != ''
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install Python packages
+        if: steps.what.outputs.seq != ''
+        run: pip install -r requirements.txt
+      - name: Render Stories
+        if: steps.what.outputs.seq != ''
+        env:
+          SEQ: ${{ steps.what.outputs.seq }}
+          STRICT_VOICE: "1"   # never fall back to the lower-quality voice: fail and re-run instead
+        run: python -u storystudio.py render --sequence "$SEQ"
+      - name: Commit rendered Stories
+        run: |
+          git config user.name "tiny-french-bot"
+          git config user.email "tiny-french-bot@users.noreply.github.com"
+          git add ig-stories/out
+          git commit -m "Render Stories [skip ci]" || echo "nothing to commit"
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep 5; done
+      - name: Build site
+        run: |
+          mkdir -p site/story-media
+          cp -r docs/. site/
+          if [ -d ig-stories/out ]; then cp -r ig-stories/out/. site/story-media/; fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: render
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

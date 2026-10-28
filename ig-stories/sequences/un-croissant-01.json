@@ -1,0 +1,85 @@
+{
+  "id": "un-croissant-01",
+  "order": 5,
+  "title": "un croissant - a croissant",
+  "level": "A1",
+  "scene": "bakery",
+  "approved": false,
+  "reviewed_by": "",
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“A croissant”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "un croissant",
+      "pron": "uhn krwah-SAHN",
+      "en": "a croissant",
+      "pos": "noun · masculine",
+      "example": {
+        "fr": "Je voudrais un croissant.",
+        "pron": "zhuh voo-DRAY uhn krwah-SAHN",
+        "en": "I would like a croissant."
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "bakery",
+      "title": "Un croissant · A croissant",
+      "lines": [
+        {
+          "speaker": "Adrien",
+          "fr": "Qu'est-ce que tu veux ?",
+          "en": "What do you want?"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Je voudrais un croissant.",
+          "en": "I'd like a croissant."
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Moi aussi !",
+          "en": "Me too!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "un croissant",
+      "question": "What does this mean?",
+      "options": [
+        "A baguette",
+        "A coffee",
+        "A croissant",
+        "A book"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "reveal",
+      "answer_label": "C",
+      "fr": "un croissant",
+      "pron": "uhn krwah-SAHN",
+      "en": "a croissant",
+      "note": [
+        "Croissant is masculine: un croissant.",
+        "Je voudrais = I would like (polite)."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: l'addition (the bill)"
+    }
+  ]
+}
