@@ -4,8 +4,8 @@
   "title": "j'ai faim - I'm hungry",
   "level": "A1",
   "scene": "street",
-  "approved": false,
-  "reviewed_by": "",
+  "approved": true,
+  "reviewed_by": "Yuki",
   "uncertain": [
     "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
     "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
@@ -81,5 +81,6 @@
       "cta": "Watch our latest Reel for more everyday French",
       "teaser": "Next: où (where)"
     }
-  ]
+  ],
+  "publish_at": "2026-11-06T14:00:00+00:00"
 }
