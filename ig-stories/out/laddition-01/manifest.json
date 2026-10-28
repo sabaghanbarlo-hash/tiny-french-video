@@ -1,0 +1,185 @@
+{
+  "id": "laddition-01",
+  "title": "l'addition - the bill",
+  "level": "A1",
+  "order": 6,
+  "approved": false,
+  "reviewed_by": "",
+  "publish_at": "",
+  "timezone": "UTC",
+  "ready_to_publish": false,
+  "qc": {
+    "errors": [],
+    "warnings": [],
+    "checks": [
+      {
+        "check": "example sentence contains the target word",
+        "ok": true
+      },
+      {
+        "check": "conversation uses the target word",
+        "ok": true
+      },
+      {
+        "check": "quiz has 3-4 unique options and exactly one valid correct answer",
+        "ok": true
+      },
+      {
+        "check": "quiz correct option equals the taught meaning",
+        "ok": true
+      },
+      {
+        "check": "reveal slide matches the quiz answer",
+        "ok": true
+      },
+      {
+        "check": "reveal slide repeats the same word",
+        "ok": true
+      },
+      {
+        "check": "audio transcript == subtitles (both generated from the same text)",
+        "ok": true
+      }
+    ],
+    "uncertain": [
+      "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+      "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+      "Level label A1 is a judgement call; there is no official CEFR word list."
+    ],
+    "notes": [
+      "Automated checks only prove internal consistency. They cannot prove the French is natural or correct.",
+      "Pronunciation hints are approximate English-style respellings and were not machine-checked."
+    ],
+    "french_verified": false,
+    "status": "needs_review"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "intro",
+      "kind": "image",
+      "file": "01-intro.jpg",
+      "content": {
+        "kicker": "Today's tiny word",
+        "headline": [
+          "How do you say",
+          "“The bill”",
+          "in French?"
+        ],
+        "sub": "Tap to find out"
+      }
+    },
+    {
+      "n": 2,
+      "type": "word",
+      "kind": "image",
+      "file": "02-word.jpg",
+      "content": {
+        "fr": "l'addition",
+        "pron": "la-dee-SYOHN",
+        "en": "the bill",
+        "pos": "noun · feminine · US: “the check”",
+        "example": {
+          "fr": "L'addition, s'il vous plaît.",
+          "pron": "la-dee-SYOHN, seel voo PLEH",
+          "en": "The bill, please."
+        }
+      }
+    },
+    {
+      "n": 3,
+      "type": "convo",
+      "kind": "video",
+      "file": "03-convo.mp4",
+      "poster": "03-convo-poster.jpg",
+      "duration": 10.7,
+      "size_mb": 0.37,
+      "audio": "real_voice",
+      "audio_transcript": [
+        "L'addition, s'il vous plaît !",
+        "Tout de suite, monsieur.",
+        "Merci !"
+      ],
+      "subtitles": [
+        {
+          "fr": "L'addition, s'il vous plaît !",
+          "en": "The bill, please!"
+        },
+        {
+          "fr": "Tout de suite, monsieur.",
+          "en": "Right away, sir."
+        },
+        {
+          "fr": "Merci !",
+          "en": "Thank you!"
+        }
+      ],
+      "content": {
+        "scene": "restaurant",
+        "title": "L'addition · The bill",
+        "lines": [
+          {
+            "speaker": "Adrien",
+            "fr": "L'addition, s'il vous plaît !",
+            "en": "The bill, please!"
+          },
+          {
+            "speaker": "Marinette",
+            "fr": "Tout de suite, monsieur.",
+            "en": "Right away, sir."
+          },
+          {
+            "speaker": "Adrien",
+            "fr": "Merci !",
+            "en": "Thank you!"
+          }
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "type": "quiz",
+      "kind": "image",
+      "file": "04-quiz.jpg",
+      "content": {
+        "fr": "l'addition",
+        "question": "What does this mean?",
+        "options": [
+          "The menu",
+          "The bill",
+          "The table",
+          "The water"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "n": 5,
+      "type": "reveal",
+      "kind": "image",
+      "file": "05-reveal.jpg",
+      "content": {
+        "answer_label": "B",
+        "fr": "l'addition",
+        "pron": "la-dee-SYOHN",
+        "en": "the bill",
+        "note": [
+          "l'addition = la + addition (la drops its a).",
+          "Do not confuse it with the English word “addition”."
+        ],
+        "cta": "Watch our latest Reel for more everyday French",
+        "teaser": "Next: de rien (you're welcome)"
+      }
+    }
+  ],
+  "source": "ig-stories/sequences/laddition-01.json",
+  "api_limits": [
+    "Stories are single-media: each slide is posted as its own Story.",
+    "The Instagram API cannot add stickers (poll, quiz, link, question) or captions to Stories.",
+    "The API has no native scheduling: this project's scheduled workflow publishes at publish_at."
+  ],
+  "manual_steps": [
+    "Optional: post the quiz slide by hand in the Instagram app and add the native Quiz sticker (options from the quiz slide, correct answer set) instead of the text-reply version. Sticker taps are the strongest engagement signal on Stories.",
+    "Optional: add a Link sticker to the last Story by hand if you want a tappable link to the free lesson."
+  ]
+}

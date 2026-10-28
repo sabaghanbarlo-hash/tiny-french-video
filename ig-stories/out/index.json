@@ -1,0 +1,122 @@
+[
+  {
+    "id": "bonjour-01",
+    "title": "bonjour - hello",
+    "level": "A1",
+    "order": 1,
+    "approved": false,
+    "ready_to_publish": false,
+    "publish_at": "",
+    "status": "needs_review"
+  },
+  {
+    "id": "merci-01",
+    "title": "merci - thank you",
+    "level": "A1",
+    "order": 2,
+    "approved": false,
+    "ready_to_publish": false,
+    "publish_at": "",
+    "status": "needs_review"
+  },
+  {
+    "id": "sil-vous-plait-01",
+    "title": "s'il vous plaît - please",
+    "level": "A1",
+    "order": 3,
+    "approved": false,
+    "ready_to_publish": false,
+    "publish_at": "",
+    "status": "needs_review"
+  },
+  {
+    "id": "pardon-01",
+    "title": "pardon - excuse me",
+    "level": "A1",
+    "order": 4,
+    "approved": false,
+    "ready_to_publish": false,
+    "publish_at": "",
+    "status": "needs_review"
+  },
+  {
+    "id": "un-croissant-01",
+    "title": "un croissant - a croissant",
+    "level": "A1",
+    "order": 5,
+    "approved": false,
+    "ready_to_publish": false,
+    "publish_at": "",
+    "status": "needs_review"
+  },
+  {
+    "id": "laddition-01",
+    "title": "l'addition - the bill",
+    "level": "A1",
+    "order": 6,
+    "approved": false,
+    "ready_to_publish": false,
+    "publish_at": "",
+    "status": "needs_review"
+  },
+  {
+    "id": "de-rien-01",
+    "title": "de rien - you're welcome",
+    "level": "A1",
+    "order": 7,
+    "approved": false,
+    "ready_to_publish": false,
+    "publish_at": "",
+    "status": "needs_review"
+  },
+  {
+    "id": "a-demain-01",
+    "title": "à demain - see you tomorrow",
+    "level": "A1",
+    "order": 8,
+    "approved": false,
+    "ready_to_publish": false,
+    "publish_at": "",
+    "status": "needs_review"
+  },
+  {
+    "id": "jai-faim-01",
+    "title": "j'ai faim - I'm hungry",
+    "level": "A1",
+    "order": 9,
+    "approved": false,
+    "ready_to_publish": false,
+    "publish_at": "",
+    "status": "needs_review"
+  },
+  {
+    "id": "ou-01",
+    "title": "où - where",
+    "level": "A1",
+    "order": 10,
+    "approved": false,
+    "ready_to_publish": false,
+    "publish_at": "",
+    "status": "needs_review"
+  },
+  {
+    "id": "combien-01",
+    "title": "combien - how much",
+    "level": "A1",
+    "order": 11,
+    "approved": false,
+    "ready_to_publish": false,
+    "publish_at": "",
+    "status": "needs_review"
+  },
+  {
+    "id": "fatigue-01",
+    "title": "fatigué - tired",
+    "level": "A1",
+    "order": 12,
+    "approved": false,
+    "ready_to_publish": false,
+    "publish_at": "",
+    "status": "needs_review"
+  }
+]

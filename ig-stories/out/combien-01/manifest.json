@@ -1,0 +1,185 @@
+{
+  "id": "combien-01",
+  "title": "combien - how much",
+  "level": "A1",
+  "order": 11,
+  "approved": false,
+  "reviewed_by": "",
+  "publish_at": "",
+  "timezone": "UTC",
+  "ready_to_publish": false,
+  "qc": {
+    "errors": [],
+    "warnings": [],
+    "checks": [
+      {
+        "check": "example sentence contains the target word",
+        "ok": true
+      },
+      {
+        "check": "conversation uses the target word",
+        "ok": true
+      },
+      {
+        "check": "quiz has 3-4 unique options and exactly one valid correct answer",
+        "ok": true
+      },
+      {
+        "check": "quiz correct option equals the taught meaning",
+        "ok": true
+      },
+      {
+        "check": "reveal slide matches the quiz answer",
+        "ok": true
+      },
+      {
+        "check": "reveal slide repeats the same word",
+        "ok": true
+      },
+      {
+        "check": "audio transcript == subtitles (both generated from the same text)",
+        "ok": true
+      }
+    ],
+    "uncertain": [
+      "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+      "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+      "Level label A1 is a judgement call; there is no official CEFR word list."
+    ],
+    "notes": [
+      "Automated checks only prove internal consistency. They cannot prove the French is natural or correct.",
+      "Pronunciation hints are approximate English-style respellings and were not machine-checked."
+    ],
+    "french_verified": false,
+    "status": "needs_review"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "intro",
+      "kind": "image",
+      "file": "01-intro.jpg",
+      "content": {
+        "kicker": "Today's tiny word",
+        "headline": [
+          "How do you say",
+          "“How much”",
+          "in French?"
+        ],
+        "sub": "Tap to find out"
+      }
+    },
+    {
+      "n": 2,
+      "type": "word",
+      "kind": "image",
+      "file": "02-word.jpg",
+      "content": {
+        "fr": "combien",
+        "pron": "kohm-BYAN",
+        "en": "how much",
+        "pos": "question word · also “how many”",
+        "example": {
+          "fr": "C'est combien ?",
+          "pron": "say kohm-BYAN",
+          "en": "How much is it?"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "type": "convo",
+      "kind": "video",
+      "file": "03-convo.mp4",
+      "poster": "03-convo-poster.jpg",
+      "duration": 11.6,
+      "size_mb": 0.47,
+      "audio": "real_voice",
+      "audio_transcript": [
+        "C'est combien, les pommes ?",
+        "Trois euros le kilo.",
+        "D'accord, j'en prends un kilo !"
+      ],
+      "subtitles": [
+        {
+          "fr": "C'est combien, les pommes ?",
+          "en": "How much are the apples?"
+        },
+        {
+          "fr": "Trois euros le kilo.",
+          "en": "Three euros a kilo."
+        },
+        {
+          "fr": "D'accord, j'en prends un kilo !",
+          "en": "OK, I'll take a kilo!"
+        }
+      ],
+      "content": {
+        "scene": "market",
+        "title": "Combien · How much",
+        "lines": [
+          {
+            "speaker": "Marinette",
+            "fr": "C'est combien, les pommes ?",
+            "en": "How much are the apples?"
+          },
+          {
+            "speaker": "Adrien",
+            "fr": "Trois euros le kilo.",
+            "en": "Three euros a kilo."
+          },
+          {
+            "speaker": "Marinette",
+            "fr": "D'accord, j'en prends un kilo !",
+            "en": "OK, I'll take a kilo!"
+          }
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "type": "quiz",
+      "kind": "image",
+      "file": "04-quiz.jpg",
+      "content": {
+        "fr": "combien",
+        "question": "What does this mean?",
+        "options": [
+          "How old",
+          "Where",
+          "When",
+          "How much"
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "n": 5,
+      "type": "reveal",
+      "kind": "image",
+      "file": "05-reveal.jpg",
+      "content": {
+        "answer_label": "D",
+        "fr": "combien",
+        "pron": "kohm-BYAN",
+        "en": "how much",
+        "note": [
+          "C'est combien ? is the shopping question.",
+          "Combien de + noun = how many: combien de pommes ?"
+        ],
+        "cta": "Watch our latest Reel for more everyday French",
+        "teaser": "Next: fatigué (tired)"
+      }
+    }
+  ],
+  "source": "ig-stories/sequences/combien-01.json",
+  "api_limits": [
+    "Stories are single-media: each slide is posted as its own Story.",
+    "The Instagram API cannot add stickers (poll, quiz, link, question) or captions to Stories.",
+    "The API has no native scheduling: this project's scheduled workflow publishes at publish_at."
+  ],
+  "manual_steps": [
+    "Optional: post the quiz slide by hand in the Instagram app and add the native Quiz sticker (options from the quiz slide, correct answer set) instead of the text-reply version. Sticker taps are the strongest engagement signal on Stories.",
+    "Optional: add a Link sticker to the last Story by hand if you want a tappable link to the free lesson."
+  ]
+}
