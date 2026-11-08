@@ -1,0 +1,84 @@
+{
+  "id": "enchante-01",
+  "order": 16,
+  "title": "enchanté - nice to meet you",
+  "level": "A1",
+  "scene": "park",
+  "approved": false,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“Nice to meet you”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "enchanté",
+      "pron": "ahn-shahn-TAY",
+      "en": "nice to meet you",
+      "pos": "greeting · feminine: enchantée",
+      "example": {
+        "fr": "Enchanté, Marinette !",
+        "pron": "ahn-shahn-TAY ma-ree-NET",
+        "en": "Nice to meet you, Marinette!"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "park",
+      "title": "Enchanté · Nice to meet you",
+      "lines": [
+        {
+          "speaker": "Adrien",
+          "fr": "Salut, je suis Adrien.",
+          "en": "Hi, I'm Adrien."
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Enchantée ! Moi, c'est Marinette.",
+          "en": "Nice to meet you! I'm Marinette."
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Enchanté !",
+          "en": "Nice to meet you!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "enchanté",
+      "question": "What does this mean?",
+      "options": [
+        "Excuse me",
+        "Goodbye",
+        "Nice to meet you",
+        "Delicious"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "reveal",
+      "answer_label": "C",
+      "fr": "enchanté",
+      "pron": "ahn-shahn-TAY",
+      "en": "nice to meet you",
+      "note": [
+        "A woman writes enchantée.",
+        "It sounds the same when spoken."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: un café (a coffee)"
+    }
+  ]
+}

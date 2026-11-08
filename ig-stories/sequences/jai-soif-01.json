@@ -1,0 +1,84 @@
+{
+  "id": "jai-soif-01",
+  "order": 24,
+  "title": "j'ai soif - I'm thirsty",
+  "level": "A1",
+  "scene": "park",
+  "approved": false,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“I'm thirsty”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "j'ai soif",
+      "pron": "zhay SWAF",
+      "en": "I'm thirsty",
+      "pos": "phrase",
+      "example": {
+        "fr": "J'ai soif, et toi ?",
+        "pron": "zhay SWAF ay TWAH",
+        "en": "I'm thirsty, and you?"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "park",
+      "title": "J'ai soif · I'm thirsty",
+      "lines": [
+        {
+          "speaker": "Adrien",
+          "fr": "J'ai soif !",
+          "en": "I'm thirsty!"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Moi aussi. Un jus ?",
+          "en": "Me too. A juice?"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Oui, bonne idée !",
+          "en": "Yes, good idea!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "j'ai soif",
+      "question": "What does this mean?",
+      "options": [
+        "I'm hungry",
+        "I'm cold",
+        "I'm thirsty",
+        "I'm late"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "reveal",
+      "answer_label": "C",
+      "fr": "j'ai soif",
+      "pron": "zhay SWAF",
+      "en": "I'm thirsty",
+      "note": [
+        "French says \"I have thirst\": j'ai soif.",
+        "Same pattern: j'ai faim = I'm hungry."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: bonne nuit (good night)"
+    }
+  ]
+}

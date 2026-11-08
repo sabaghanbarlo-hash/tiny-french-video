@@ -1,0 +1,84 @@
+{
+  "id": "au-revoir-01",
+  "order": 14,
+  "title": "au revoir - goodbye",
+  "level": "A1",
+  "scene": "station",
+  "approved": false,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“Goodbye”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "au revoir",
+      "pron": "oh ruh-VWAR",
+      "en": "goodbye",
+      "pos": "phrase",
+      "example": {
+        "fr": "Au revoir et à demain !",
+        "pron": "oh ruh-VWAR ay a duh-MAN",
+        "en": "Goodbye and see you tomorrow!"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "station",
+      "title": "Au revoir · Goodbye",
+      "lines": [
+        {
+          "speaker": "Marinette",
+          "fr": "Mon train arrive !",
+          "en": "My train is arriving!"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Au revoir, Marinette !",
+          "en": "Goodbye, Marinette!"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Au revoir, Adrien ! À demain !",
+          "en": "Goodbye, Adrien! See you tomorrow!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "au revoir",
+      "question": "What does this mean?",
+      "options": [
+        "Hello",
+        "Goodbye",
+        "Thank you",
+        "Please"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "reveal",
+      "answer_label": "B",
+      "fr": "au revoir",
+      "pron": "oh ruh-VWAR",
+      "en": "goodbye",
+      "note": [
+        "Au revoir = goodbye (to anyone).",
+        "Friends can also say salut = hi / bye."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: je m'appelle (my name is)"
+    }
+  ]
+}
