@@ -1,0 +1,86 @@
+{
+  "id": "bonne-nuit-01",
+  "order": 25,
+  "title": "bonne nuit - good night",
+  "level": "A1",
+  "scene": "apartment",
+  "approved": true,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“Good night”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "bonne nuit",
+      "pron": "bun NWEE",
+      "en": "good night",
+      "pos": "phrase",
+      "example": {
+        "fr": "Bonne nuit, Adrien !",
+        "pron": "bun NWEE a-dree-AN",
+        "en": "Good night, Adrien!"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "apartment",
+      "title": "Bonne nuit · Good night",
+      "lines": [
+        {
+          "speaker": "Marinette",
+          "fr": "Je suis fatiguée. Bonne nuit !",
+          "en": "I'm tired. Good night!"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Bonne nuit, Marinette !",
+          "en": "Good night, Marinette!"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "À demain !",
+          "en": "See you tomorrow!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "bonne nuit",
+      "question": "What does this mean?",
+      "options": [
+        "Good morning",
+        "Good luck",
+        "Good idea",
+        "Good night"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "reveal",
+      "answer_label": "D",
+      "fr": "bonne nuit",
+      "pron": "bun NWEE",
+      "en": "good night",
+      "note": [
+        "Use bonne nuit only at bedtime.",
+        "Leaving in the evening? Say bonne soirée = have a nice evening."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: bonne journée (have a nice day)"
+    }
+  ],
+  "reviewed_by": "Auto-approved at Saba's request for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-11-22T14:00:00+00:00"
+}

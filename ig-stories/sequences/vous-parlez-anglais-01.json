@@ -1,0 +1,86 @@
+{
+  "id": "vous-parlez-anglais-01",
+  "order": 21,
+  "title": "vous parlez anglais ? - do you speak English?",
+  "level": "A1",
+  "scene": "street",
+  "approved": true,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“Do you speak English?”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "vous parlez anglais ?",
+      "pron": "voo par-lay ahn-GLAY",
+      "en": "do you speak English?",
+      "pos": "everyday question",
+      "example": {
+        "fr": "Pardon, vous parlez anglais ?",
+        "pron": "par-DOHN voo par-lay ahn-GLAY",
+        "en": "Excuse me, do you speak English?"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "street",
+      "title": "Vous parlez anglais ? · Do you speak english?",
+      "lines": [
+        {
+          "speaker": "Marinette",
+          "fr": "Pardon, vous parlez anglais ?",
+          "en": "Excuse me, do you speak English?"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Oui, un peu.",
+          "en": "Yes, a little."
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Super, merci !",
+          "en": "Great, thanks!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "vous parlez anglais ?",
+      "question": "What does this mean?",
+      "options": [
+        "Do you speak English?",
+        "Where is the station?",
+        "How much is it?",
+        "What's your name?"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "reveal",
+      "answer_label": "A",
+      "fr": "vous parlez anglais ?",
+      "pron": "voo par-lay ahn-GLAY",
+      "en": "do you speak English?",
+      "note": [
+        "un peu = a little.",
+        "With friends, use tu: tu parles anglais ?"
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: un billet (a ticket)"
+    }
+  ],
+  "reviewed_by": "Auto-approved at Saba's request for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-11-18T14:00:00+00:00"
+}

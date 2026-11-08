@@ -1,0 +1,86 @@
+{
+  "id": "de-leau-01",
+  "order": 18,
+  "title": "de l'eau - water",
+  "level": "A1",
+  "scene": "restaurant",
+  "approved": true,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“Water”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "de l'eau",
+      "pron": "duh LOH",
+      "en": "water",
+      "pos": "noun · feminine (l'eau)",
+      "example": {
+        "fr": "De l'eau, s'il vous plaît.",
+        "pron": "duh LOH seel voo PLEH",
+        "en": "Some water, please."
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "restaurant",
+      "title": "De l'eau · Water",
+      "lines": [
+        {
+          "speaker": "Adrien",
+          "fr": "De l'eau, s'il vous plaît.",
+          "en": "Water, please."
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Plate ou gazeuse ?",
+          "en": "Still or sparkling?"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Plate, merci.",
+          "en": "Still, thanks."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "de l'eau",
+      "question": "What does this mean?",
+      "options": [
+        "Bread",
+        "Milk",
+        "Coffee",
+        "Water"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "reveal",
+      "answer_label": "D",
+      "fr": "de l'eau",
+      "pron": "duh LOH",
+      "en": "water",
+      "note": [
+        "l'eau = the water; de l'eau = some water.",
+        "Free tap water at a restaurant: une carafe d'eau."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: je voudrais (I would like)"
+    }
+  ],
+  "reviewed_by": "Auto-approved at Saba's request for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-11-15T14:00:00+00:00"
+}

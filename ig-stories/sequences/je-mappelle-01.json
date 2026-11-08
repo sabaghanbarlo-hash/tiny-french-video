@@ -1,0 +1,86 @@
+{
+  "id": "je-mappelle-01",
+  "order": 15,
+  "title": "je m'appelle - my name is",
+  "level": "A1",
+  "scene": "classroom",
+  "approved": true,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“My name is”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "je m'appelle",
+      "pron": "zhuh ma-PEL",
+      "en": "my name is",
+      "pos": "phrase",
+      "example": {
+        "fr": "Je m'appelle Marinette.",
+        "pron": "zhuh ma-PEL ma-ree-NET",
+        "en": "My name is Marinette."
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "classroom",
+      "title": "Je m'appelle · My name is",
+      "lines": [
+        {
+          "speaker": "Adrien",
+          "fr": "Bonjour, je m'appelle Adrien.",
+          "en": "Hello, my name is Adrien."
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Et moi, je m'appelle Marinette.",
+          "en": "And I'm Marinette."
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Quel joli nom !",
+          "en": "What a nice name!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "je m'appelle",
+      "question": "What does this mean?",
+      "options": [
+        "My name is",
+        "I'm hungry",
+        "Where is",
+        "See you tomorrow"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "reveal",
+      "answer_label": "A",
+      "fr": "je m'appelle",
+      "pron": "zhuh ma-PEL",
+      "en": "my name is",
+      "note": [
+        "Literally: I call myself ...",
+        "Then add your name: je m'appelle Léa."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: enchanté (nice to meet you)"
+    }
+  ],
+  "reviewed_by": "Auto-approved at Saba's request for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-11-12T14:00:00+00:00"
+}

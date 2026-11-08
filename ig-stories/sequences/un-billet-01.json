@@ -1,0 +1,86 @@
+{
+  "id": "un-billet-01",
+  "order": 22,
+  "title": "un billet - a ticket",
+  "level": "A1",
+  "scene": "station",
+  "approved": true,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“A ticket”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "un billet",
+      "pron": "uhn bee-YAY",
+      "en": "a ticket",
+      "pos": "noun · masculine",
+      "example": {
+        "fr": "Un billet pour Paris, s'il vous plaît.",
+        "pron": "uhn bee-YAY poor pa-REE seel voo PLEH",
+        "en": "A ticket to Paris, please."
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "station",
+      "title": "Un billet · A ticket",
+      "lines": [
+        {
+          "speaker": "Adrien",
+          "fr": "Bonjour, un billet pour Paris, s'il vous plaît.",
+          "en": "Hello, a ticket to Paris, please."
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Voilà. Dix euros.",
+          "en": "Here you go. Ten euros."
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Merci !",
+          "en": "Thanks!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "un billet",
+      "question": "What does this mean?",
+      "options": [
+        "A table",
+        "A coffee",
+        "A ticket",
+        "A key"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "reveal",
+      "answer_label": "C",
+      "fr": "un billet",
+      "pron": "uhn bee-YAY",
+      "en": "a ticket",
+      "note": [
+        "un billet = a ticket (also a banknote).",
+        "un billet de dix euros = a ten-euro bill."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: trop cher (too expensive)"
+    }
+  ],
+  "reviewed_by": "Auto-approved at Saba's request for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-11-19T14:00:00+00:00"
+}

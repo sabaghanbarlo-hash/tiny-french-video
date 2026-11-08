@@ -1,0 +1,86 @@
+{
+  "id": "ca-va-01",
+  "order": 13,
+  "title": "ça va ? - how are you?",
+  "level": "A1",
+  "scene": "street",
+  "approved": true,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“How are you?”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "Ça va ?",
+      "pron": "sa VA",
+      "en": "how are you?",
+      "pos": "everyday question",
+      "example": {
+        "fr": "Salut, ça va ?",
+        "pron": "sa-LEW sa VA",
+        "en": "Hi, how are you?"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "street",
+      "title": "Ça va ? · How are you?",
+      "lines": [
+        {
+          "speaker": "Adrien",
+          "fr": "Salut Marinette, ça va ?",
+          "en": "Hi Marinette, how are you?"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Ça va bien, merci ! Et toi ?",
+          "en": "I'm fine, thanks! And you?"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Ça va !",
+          "en": "I'm good!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "Ça va ?",
+      "question": "What does this mean?",
+      "options": [
+        "Thank you",
+        "How are you?",
+        "Goodbye",
+        "Please"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "reveal",
+      "answer_label": "B",
+      "fr": "Ça va ?",
+      "pron": "sa VA",
+      "en": "how are you?",
+      "note": [
+        "Ça va ? = How are you?",
+        "Reply: ça va bien = I'm fine."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: au revoir (goodbye)"
+    }
+  ],
+  "reviewed_by": "Auto-approved at Saba's request for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-11-10T14:00:00+00:00"
+}
