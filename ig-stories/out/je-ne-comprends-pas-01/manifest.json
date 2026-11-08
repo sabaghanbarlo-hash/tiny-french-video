@@ -1,0 +1,185 @@
+{
+  "id": "je-ne-comprends-pas-01",
+  "title": "je ne comprends pas - I don't understand",
+  "level": "A1",
+  "order": 20,
+  "approved": true,
+  "reviewed_by": "Auto-approved at Saba's request for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-11-17T14:00:00+00:00",
+  "timezone": "UTC",
+  "ready_to_publish": true,
+  "qc": {
+    "errors": [],
+    "warnings": [],
+    "checks": [
+      {
+        "check": "example sentence contains the target word",
+        "ok": true
+      },
+      {
+        "check": "conversation uses the target word",
+        "ok": true
+      },
+      {
+        "check": "quiz has 3-4 unique options and exactly one valid correct answer",
+        "ok": true
+      },
+      {
+        "check": "quiz correct option equals the taught meaning",
+        "ok": true
+      },
+      {
+        "check": "reveal slide matches the quiz answer",
+        "ok": true
+      },
+      {
+        "check": "reveal slide repeats the same word",
+        "ok": true
+      },
+      {
+        "check": "audio transcript == subtitles (both generated from the same text)",
+        "ok": true
+      }
+    ],
+    "uncertain": [
+      "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+      "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+      "Level label A1 is a judgement call; there is no official CEFR word list."
+    ],
+    "notes": [
+      "Automated checks only prove internal consistency. They cannot prove the French is natural or correct.",
+      "Pronunciation hints are approximate English-style respellings and were not machine-checked."
+    ],
+    "french_verified": false,
+    "status": "ready"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "intro",
+      "kind": "image",
+      "file": "01-intro.jpg",
+      "content": {
+        "kicker": "Today's tiny word",
+        "headline": [
+          "How do you say",
+          "“I don't understand”",
+          "in French?"
+        ],
+        "sub": "Tap to find out"
+      }
+    },
+    {
+      "n": 2,
+      "type": "word",
+      "kind": "image",
+      "file": "02-word.jpg",
+      "content": {
+        "fr": "je ne comprends pas",
+        "pron": "zhuh nuh kohm-PRAHN pah",
+        "en": "I don't understand",
+        "pos": "phrase",
+        "example": {
+          "fr": "Désolé, je ne comprends pas.",
+          "pron": "day-zo-LAY zhuh nuh kohm-PRAHN pah",
+          "en": "Sorry, I don't understand."
+        }
+      }
+    },
+    {
+      "n": 3,
+      "type": "convo",
+      "kind": "video",
+      "file": "03-convo.mp4",
+      "poster": "03-convo-poster.jpg",
+      "duration": 10.9,
+      "size_mb": 0.42,
+      "audio": "real_voice",
+      "audio_transcript": [
+        "Tu comprends ?",
+        "Non, je ne comprends pas.",
+        "Je répète : bonjour !"
+      ],
+      "subtitles": [
+        {
+          "fr": "Tu comprends ?",
+          "en": "Do you understand?"
+        },
+        {
+          "fr": "Non, je ne comprends pas.",
+          "en": "No, I don't understand."
+        },
+        {
+          "fr": "Je répète : bonjour !",
+          "en": "I'll repeat: hello!"
+        }
+      ],
+      "content": {
+        "scene": "classroom",
+        "title": "Je ne comprends pas · I don't understand",
+        "lines": [
+          {
+            "speaker": "Marinette",
+            "fr": "Tu comprends ?",
+            "en": "Do you understand?"
+          },
+          {
+            "speaker": "Adrien",
+            "fr": "Non, je ne comprends pas.",
+            "en": "No, I don't understand."
+          },
+          {
+            "speaker": "Marinette",
+            "fr": "Je répète : bonjour !",
+            "en": "I'll repeat: hello!"
+          }
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "type": "quiz",
+      "kind": "image",
+      "file": "04-quiz.jpg",
+      "content": {
+        "fr": "je ne comprends pas",
+        "question": "What does this mean?",
+        "options": [
+          "I don't know",
+          "I don't like",
+          "I don't understand",
+          "I'm not tired"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "n": 5,
+      "type": "reveal",
+      "kind": "image",
+      "file": "05-reveal.jpg",
+      "content": {
+        "answer_label": "C",
+        "fr": "je ne comprends pas",
+        "pron": "zhuh nuh kohm-PRAHN pah",
+        "en": "I don't understand",
+        "note": [
+          "ne ... pas wraps the verb: je ne comprends pas.",
+          "In speech, people often drop ne: je comprends pas."
+        ],
+        "cta": "Watch our latest Reel for more everyday French",
+        "teaser": "Next: vous parlez anglais ? (do you speak English?)"
+      }
+    }
+  ],
+  "source": "ig-stories/sequences/je-ne-comprends-pas-01.json",
+  "api_limits": [
+    "Stories are single-media: each slide is posted as its own Story.",
+    "The Instagram API cannot add stickers (poll, quiz, link, question) or captions to Stories.",
+    "The API has no native scheduling: this project's scheduled workflow publishes at publish_at."
+  ],
+  "manual_steps": [
+    "Optional: post the quiz slide by hand in the Instagram app and add the native Quiz sticker (options from the quiz slide, correct answer set) instead of the text-reply version. Sticker taps are the strongest engagement signal on Stories.",
+    "Optional: add a Link sticker to the last Story by hand if you want a tappable link to the free lesson."
+  ]
+}

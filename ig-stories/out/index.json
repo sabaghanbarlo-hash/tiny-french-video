@@ -118,5 +118,145 @@
     "ready_to_publish": false,
     "publish_at": "",
     "status": "needs_review"
+  },
+  {
+    "id": "ca-va-01",
+    "title": "ça va ? - how are you?",
+    "level": "A1",
+    "order": 13,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-10T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "au-revoir-01",
+    "title": "au revoir - goodbye",
+    "level": "A1",
+    "order": 14,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-11T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "je-mappelle-01",
+    "title": "je m'appelle - my name is",
+    "level": "A1",
+    "order": 15,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-12T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "enchante-01",
+    "title": "enchanté - nice to meet you",
+    "level": "A1",
+    "order": 16,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-13T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "un-cafe-01",
+    "title": "un café - a coffee",
+    "level": "A1",
+    "order": 17,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-14T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "de-leau-01",
+    "title": "de l'eau - water",
+    "level": "A1",
+    "order": 18,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-15T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "je-voudrais-01",
+    "title": "je voudrais - I would like",
+    "level": "A1",
+    "order": 19,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-16T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "je-ne-comprends-pas-01",
+    "title": "je ne comprends pas - I don't understand",
+    "level": "A1",
+    "order": 20,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-17T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "vous-parlez-anglais-01",
+    "title": "vous parlez anglais ? - do you speak English?",
+    "level": "A1",
+    "order": 21,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-18T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "un-billet-01",
+    "title": "un billet - a ticket",
+    "level": "A1",
+    "order": 22,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-19T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "trop-cher-01",
+    "title": "trop cher - too expensive",
+    "level": "A1",
+    "order": 23,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-20T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "jai-soif-01",
+    "title": "j'ai soif - I'm thirsty",
+    "level": "A1",
+    "order": 24,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-21T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "bonne-nuit-01",
+    "title": "bonne nuit - good night",
+    "level": "A1",
+    "order": 25,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-22T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "bonne-journee-01",
+    "title": "bonne journée - have a nice day",
+    "level": "A1",
+    "order": 26,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-23T14:00:00+00:00",
+    "status": "ready"
   }
 ]
