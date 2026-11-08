@@ -4,7 +4,7 @@
   "title": "bonne journée - have a nice day",
   "level": "A1",
   "scene": "store",
-  "approved": false,
+  "approved": true,
   "uncertain": [
     "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
     "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
@@ -80,5 +80,7 @@
       "cta": "Watch our latest Reel for more everyday French",
       "teaser": "Next: more tiny French soon!"
     }
-  ]
+  ],
+  "reviewed_by": "Auto-approved at Saba's request for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-11-23T14:00:00+00:00"
 }
