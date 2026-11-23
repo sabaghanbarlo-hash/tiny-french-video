@@ -258,5 +258,145 @@
     "ready_to_publish": true,
     "publish_at": "2026-11-23T14:00:00+00:00",
     "status": "ready"
+  },
+  {
+    "id": "oui-01",
+    "title": "oui - yes",
+    "level": "A1",
+    "order": 27,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-24T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "non-merci-01",
+    "title": "non merci - no thank you",
+    "level": "A1",
+    "order": 28,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-25T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "excusez-moi-01",
+    "title": "excusez-moi - excuse me",
+    "level": "A1",
+    "order": 29,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-26T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "bonsoir-01",
+    "title": "bonsoir - good evening",
+    "level": "A1",
+    "order": 30,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-27T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "bienvenue-01",
+    "title": "bienvenue - welcome",
+    "level": "A1",
+    "order": 31,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-28T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "a-bientot-01",
+    "title": "à bientôt - see you soon",
+    "level": "A1",
+    "order": 32,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-29T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "bon-appetit-01",
+    "title": "bon appétit - enjoy your meal",
+    "level": "A1",
+    "order": 33,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-11-30T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "je-ne-sais-pas-01",
+    "title": "je ne sais pas - I don't know",
+    "level": "A1",
+    "order": 34,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-12-01T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "je-suis-perdu-01",
+    "title": "je suis perdu - I'm lost",
+    "level": "A1",
+    "order": 35,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-12-02T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "ou-sont-les-toilettes-01",
+    "title": "où sont les toilettes ? - where are the toilets?",
+    "level": "A1",
+    "order": 36,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-12-03T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "cest-delicieux-01",
+    "title": "c'est délicieux - it's delicious",
+    "level": "A1",
+    "order": 37,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-12-04T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "il-fait-froid-01",
+    "title": "il fait froid - it's cold",
+    "level": "A1",
+    "order": 38,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-12-05T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "felicitations-01",
+    "title": "félicitations - congratulations",
+    "level": "A1",
+    "order": 39,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-12-06T14:00:00+00:00",
+    "status": "ready"
+  },
+  {
+    "id": "sante-01",
+    "title": "santé - cheers",
+    "level": "A1",
+    "order": 40,
+    "approved": true,
+    "ready_to_publish": true,
+    "publish_at": "2026-12-07T14:00:00+00:00",
+    "status": "ready"
   }
 ]

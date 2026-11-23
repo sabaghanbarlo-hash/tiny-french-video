@@ -1,0 +1,187 @@
+{
+  "id": "ou-sont-les-toilettes-01",
+  "title": "où sont les toilettes ? - where are the toilets?",
+  "level": "A1",
+  "order": 36,
+  "approved": true,
+  "reviewed_by": "Auto-approved at Saba's request on 2026-11-23 for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-12-03T14:00:00+00:00",
+  "timezone": "UTC",
+  "ready_to_publish": true,
+  "qc": {
+    "errors": [],
+    "warnings": [
+      "slide 1: intro card: reaches y=1612, inside the bottom UI zone (>1580)"
+    ],
+    "checks": [
+      {
+        "check": "example sentence contains the target word",
+        "ok": true
+      },
+      {
+        "check": "conversation uses the target word",
+        "ok": true
+      },
+      {
+        "check": "quiz has 3-4 unique options and exactly one valid correct answer",
+        "ok": true
+      },
+      {
+        "check": "quiz correct option equals the taught meaning",
+        "ok": true
+      },
+      {
+        "check": "reveal slide matches the quiz answer",
+        "ok": true
+      },
+      {
+        "check": "reveal slide repeats the same word",
+        "ok": true
+      },
+      {
+        "check": "audio transcript == subtitles (both generated from the same text)",
+        "ok": true
+      }
+    ],
+    "uncertain": [
+      "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+      "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+      "Level label A1 is a judgement call; there is no official CEFR word list."
+    ],
+    "notes": [
+      "Automated checks only prove internal consistency. They cannot prove the French is natural or correct.",
+      "Pronunciation hints are approximate English-style respellings and were not machine-checked."
+    ],
+    "french_verified": false,
+    "status": "ready"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "intro",
+      "kind": "image",
+      "file": "01-intro.jpg",
+      "content": {
+        "kicker": "Today's tiny word",
+        "headline": [
+          "How do you say",
+          "“Where are the toilets?”",
+          "in French?"
+        ],
+        "sub": "Tap to find out"
+      }
+    },
+    {
+      "n": 2,
+      "type": "word",
+      "kind": "image",
+      "file": "02-word.jpg",
+      "content": {
+        "fr": "où sont les toilettes ?",
+        "pron": "oo son lay twa-LET",
+        "en": "where are the toilets?",
+        "pos": "phrase",
+        "example": {
+          "fr": "Excusez-moi, où sont les toilettes ?",
+          "pron": "ex-kew-zay MWAH oo son lay twa-LET",
+          "en": "Excuse me, where are the toilets?"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "type": "convo",
+      "kind": "video",
+      "file": "03-convo.mp4",
+      "poster": "03-convo-poster.jpg",
+      "duration": 10.9,
+      "size_mb": 0.42,
+      "audio": "real_voice",
+      "audio_transcript": [
+        "Pardon, où sont les toilettes ?",
+        "Au fond, à droite.",
+        "Merci !"
+      ],
+      "subtitles": [
+        {
+          "fr": "Pardon, où sont les toilettes ?",
+          "en": "Sorry, where are the toilets?"
+        },
+        {
+          "fr": "Au fond, à droite.",
+          "en": "At the back, on the right."
+        },
+        {
+          "fr": "Merci !",
+          "en": "Thank you!"
+        }
+      ],
+      "content": {
+        "scene": "cafe",
+        "title": "Où sont les toilettes ? · Where are the toilets?",
+        "lines": [
+          {
+            "speaker": "Adrien",
+            "fr": "Pardon, où sont les toilettes ?",
+            "en": "Sorry, where are the toilets?"
+          },
+          {
+            "speaker": "Marinette",
+            "fr": "Au fond, à droite.",
+            "en": "At the back, on the right."
+          },
+          {
+            "speaker": "Adrien",
+            "fr": "Merci !",
+            "en": "Thank you!"
+          }
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "type": "quiz",
+      "kind": "image",
+      "file": "04-quiz.jpg",
+      "content": {
+        "fr": "où sont les toilettes ?",
+        "question": "What does this mean?",
+        "options": [
+          "Where is the exit?",
+          "Where are the toilets?",
+          "Where is the station?",
+          "How much is it?"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "n": 5,
+      "type": "reveal",
+      "kind": "image",
+      "file": "05-reveal.jpg",
+      "content": {
+        "answer_label": "B",
+        "fr": "où sont les toilettes ?",
+        "pron": "oo son lay twa-LET",
+        "en": "Where are the toilets?",
+        "note": [
+          "French says les toilettes in the plural.",
+          "Start with excusez-moi to be polite."
+        ],
+        "cta": "Watch our latest Reel for more everyday French",
+        "teaser": "Next: c'est délicieux (it's delicious)"
+      }
+    }
+  ],
+  "source": "ig-stories/sequences/ou-sont-les-toilettes-01.json",
+  "api_limits": [
+    "Stories are single-media: each slide is posted as its own Story.",
+    "The Instagram API cannot add stickers (poll, quiz, link, question) or captions to Stories.",
+    "The API has no native scheduling: this project's scheduled workflow publishes at publish_at."
+  ],
+  "manual_steps": [
+    "Optional: post the quiz slide by hand in the Instagram app and add the native Quiz sticker (options from the quiz slide, correct answer set) instead of the text-reply version. Sticker taps are the strongest engagement signal on Stories.",
+    "Optional: add a Link sticker to the last Story by hand if you want a tappable link to the free lesson."
+  ]
+}

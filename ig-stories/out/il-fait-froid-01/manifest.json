@@ -1,0 +1,187 @@
+{
+  "id": "il-fait-froid-01",
+  "title": "il fait froid - it's cold",
+  "level": "A1",
+  "order": 38,
+  "approved": true,
+  "reviewed_by": "Auto-approved at Saba's request on 2026-11-23 for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-12-05T14:00:00+00:00",
+  "timezone": "UTC",
+  "ready_to_publish": true,
+  "qc": {
+    "errors": [],
+    "warnings": [
+      "clip is 13.5s (target 5-12s)"
+    ],
+    "checks": [
+      {
+        "check": "example sentence contains the target word",
+        "ok": true
+      },
+      {
+        "check": "conversation uses the target word",
+        "ok": true
+      },
+      {
+        "check": "quiz has 3-4 unique options and exactly one valid correct answer",
+        "ok": true
+      },
+      {
+        "check": "quiz correct option equals the taught meaning",
+        "ok": true
+      },
+      {
+        "check": "reveal slide matches the quiz answer",
+        "ok": true
+      },
+      {
+        "check": "reveal slide repeats the same word",
+        "ok": true
+      },
+      {
+        "check": "audio transcript == subtitles (both generated from the same text)",
+        "ok": true
+      }
+    ],
+    "uncertain": [
+      "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+      "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+      "Level label A1 is a judgement call; there is no official CEFR word list."
+    ],
+    "notes": [
+      "Automated checks only prove internal consistency. They cannot prove the French is natural or correct.",
+      "Pronunciation hints are approximate English-style respellings and were not machine-checked."
+    ],
+    "french_verified": false,
+    "status": "ready"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "intro",
+      "kind": "image",
+      "file": "01-intro.jpg",
+      "content": {
+        "kicker": "Today's tiny word",
+        "headline": [
+          "How do you say",
+          "“It's cold”",
+          "in French?"
+        ],
+        "sub": "Tap to find out"
+      }
+    },
+    {
+      "n": 2,
+      "type": "word",
+      "kind": "image",
+      "file": "02-word.jpg",
+      "content": {
+        "fr": "il fait froid",
+        "pron": "eel fay FRWAH",
+        "en": "it's cold",
+        "pos": "phrase",
+        "example": {
+          "fr": "Il fait froid aujourd'hui !",
+          "pron": "eel fay FRWAH o-zhoor-DWEE",
+          "en": "It's cold today!"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "type": "convo",
+      "kind": "video",
+      "file": "03-convo.mp4",
+      "poster": "03-convo-poster.jpg",
+      "duration": 13.5,
+      "size_mb": 0.49,
+      "audio": "real_voice",
+      "audio_transcript": [
+        "Brr ! Il fait froid !",
+        "Oui, très froid. Un chocolat chaud ?",
+        "Bonne idée !"
+      ],
+      "subtitles": [
+        {
+          "fr": "Brr ! Il fait froid !",
+          "en": "Brr! It's cold!"
+        },
+        {
+          "fr": "Oui, très froid. Un chocolat chaud ?",
+          "en": "Yes, very cold. A hot chocolate?"
+        },
+        {
+          "fr": "Bonne idée !",
+          "en": "Good idea!"
+        }
+      ],
+      "content": {
+        "scene": "street",
+        "title": "Il fait froid · It's cold",
+        "lines": [
+          {
+            "speaker": "Marinette",
+            "fr": "Brr ! Il fait froid !",
+            "en": "Brr! It's cold!"
+          },
+          {
+            "speaker": "Adrien",
+            "fr": "Oui, très froid. Un chocolat chaud ?",
+            "en": "Yes, very cold. A hot chocolate?"
+          },
+          {
+            "speaker": "Marinette",
+            "fr": "Bonne idée !",
+            "en": "Good idea!"
+          }
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "type": "quiz",
+      "kind": "image",
+      "file": "04-quiz.jpg",
+      "content": {
+        "fr": "il fait froid",
+        "question": "What does this mean?",
+        "options": [
+          "It's hot",
+          "It's raining",
+          "It's cold",
+          "It's late"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "n": 5,
+      "type": "reveal",
+      "kind": "image",
+      "file": "05-reveal.jpg",
+      "content": {
+        "answer_label": "C",
+        "fr": "il fait froid",
+        "pron": "eel fay FRWAH",
+        "en": "It's cold",
+        "note": [
+          "For weather, French uses il fait: il fait chaud = it's hot.",
+          "Feeling cold yourself? Say j'ai froid."
+        ],
+        "cta": "Watch our latest Reel for more everyday French",
+        "teaser": "Next: félicitations (congratulations)"
+      }
+    }
+  ],
+  "source": "ig-stories/sequences/il-fait-froid-01.json",
+  "api_limits": [
+    "Stories are single-media: each slide is posted as its own Story.",
+    "The Instagram API cannot add stickers (poll, quiz, link, question) or captions to Stories.",
+    "The API has no native scheduling: this project's scheduled workflow publishes at publish_at."
+  ],
+  "manual_steps": [
+    "Optional: post the quiz slide by hand in the Instagram app and add the native Quiz sticker (options from the quiz slide, correct answer set) instead of the text-reply version. Sticker taps are the strongest engagement signal on Stories.",
+    "Optional: add a Link sticker to the last Story by hand if you want a tappable link to the free lesson."
+  ]
+}

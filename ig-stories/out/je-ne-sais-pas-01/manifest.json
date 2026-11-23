@@ -1,0 +1,185 @@
+{
+  "id": "je-ne-sais-pas-01",
+  "title": "je ne sais pas - I don't know",
+  "level": "A1",
+  "order": 34,
+  "approved": true,
+  "reviewed_by": "Auto-approved at Saba's request on 2026-11-23 for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-12-01T14:00:00+00:00",
+  "timezone": "UTC",
+  "ready_to_publish": true,
+  "qc": {
+    "errors": [],
+    "warnings": [],
+    "checks": [
+      {
+        "check": "example sentence contains the target word",
+        "ok": true
+      },
+      {
+        "check": "conversation uses the target word",
+        "ok": true
+      },
+      {
+        "check": "quiz has 3-4 unique options and exactly one valid correct answer",
+        "ok": true
+      },
+      {
+        "check": "quiz correct option equals the taught meaning",
+        "ok": true
+      },
+      {
+        "check": "reveal slide matches the quiz answer",
+        "ok": true
+      },
+      {
+        "check": "reveal slide repeats the same word",
+        "ok": true
+      },
+      {
+        "check": "audio transcript == subtitles (both generated from the same text)",
+        "ok": true
+      }
+    ],
+    "uncertain": [
+      "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+      "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+      "Level label A1 is a judgement call; there is no official CEFR word list."
+    ],
+    "notes": [
+      "Automated checks only prove internal consistency. They cannot prove the French is natural or correct.",
+      "Pronunciation hints are approximate English-style respellings and were not machine-checked."
+    ],
+    "french_verified": false,
+    "status": "ready"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "intro",
+      "kind": "image",
+      "file": "01-intro.jpg",
+      "content": {
+        "kicker": "Today's tiny word",
+        "headline": [
+          "How do you say",
+          "“I don't know”",
+          "in French?"
+        ],
+        "sub": "Tap to find out"
+      }
+    },
+    {
+      "n": 2,
+      "type": "word",
+      "kind": "image",
+      "file": "02-word.jpg",
+      "content": {
+        "fr": "je ne sais pas",
+        "pron": "zhuh nuh say PAH",
+        "en": "I don't know",
+        "pos": "phrase",
+        "example": {
+          "fr": "Je ne sais pas !",
+          "pron": "zhuh nuh say PAH",
+          "en": "I don't know!"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "type": "convo",
+      "kind": "video",
+      "file": "03-convo.mp4",
+      "poster": "03-convo-poster.jpg",
+      "duration": 9.9,
+      "size_mb": 0.4,
+      "audio": "real_voice",
+      "audio_transcript": [
+        "Quelle heure est-il ?",
+        "Je ne sais pas. Désolée !",
+        "Pas de problème !"
+      ],
+      "subtitles": [
+        {
+          "fr": "Quelle heure est-il ?",
+          "en": "What time is it?"
+        },
+        {
+          "fr": "Je ne sais pas. Désolée !",
+          "en": "I don't know. Sorry!"
+        },
+        {
+          "fr": "Pas de problème !",
+          "en": "No problem!"
+        }
+      ],
+      "content": {
+        "scene": "classroom",
+        "title": "Je ne sais pas · I don't know",
+        "lines": [
+          {
+            "speaker": "Adrien",
+            "fr": "Quelle heure est-il ?",
+            "en": "What time is it?"
+          },
+          {
+            "speaker": "Marinette",
+            "fr": "Je ne sais pas. Désolée !",
+            "en": "I don't know. Sorry!"
+          },
+          {
+            "speaker": "Adrien",
+            "fr": "Pas de problème !",
+            "en": "No problem!"
+          }
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "type": "quiz",
+      "kind": "image",
+      "file": "04-quiz.jpg",
+      "content": {
+        "fr": "je ne sais pas",
+        "question": "What does this mean?",
+        "options": [
+          "I don't know",
+          "I don't understand",
+          "I don't want it",
+          "I'm not hungry"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "n": 5,
+      "type": "reveal",
+      "kind": "image",
+      "file": "05-reveal.jpg",
+      "content": {
+        "answer_label": "A",
+        "fr": "je ne sais pas",
+        "pron": "zhuh nuh say PAH",
+        "en": "I don't know",
+        "note": [
+          "In fast speech it often sounds like chais pas.",
+          "Not the same as je ne comprends pas = I don't understand."
+        ],
+        "cta": "Watch our latest Reel for more everyday French",
+        "teaser": "Next: je suis perdu (I'm lost)"
+      }
+    }
+  ],
+  "source": "ig-stories/sequences/je-ne-sais-pas-01.json",
+  "api_limits": [
+    "Stories are single-media: each slide is posted as its own Story.",
+    "The Instagram API cannot add stickers (poll, quiz, link, question) or captions to Stories.",
+    "The API has no native scheduling: this project's scheduled workflow publishes at publish_at."
+  ],
+  "manual_steps": [
+    "Optional: post the quiz slide by hand in the Instagram app and add the native Quiz sticker (options from the quiz slide, correct answer set) instead of the text-reply version. Sticker taps are the strongest engagement signal on Stories.",
+    "Optional: add a Link sticker to the last Story by hand if you want a tappable link to the free lesson."
+  ]
+}
