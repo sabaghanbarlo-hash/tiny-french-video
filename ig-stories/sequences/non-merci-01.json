@@ -1,0 +1,86 @@
+{
+  "id": "non-merci-01",
+  "order": 28,
+  "title": "non merci - no thank you",
+  "level": "A1",
+  "scene": "bakery",
+  "approved": true,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“No thank you”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "non merci",
+      "pron": "noh mair-SEE",
+      "en": "no thank you",
+      "pos": "phrase",
+      "example": {
+        "fr": "Non merci, ça va !",
+        "pron": "noh mair-SEE sa VA",
+        "en": "No thanks, I'm fine!"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "bakery",
+      "title": "Non merci · No thank you",
+      "lines": [
+        {
+          "speaker": "Marinette",
+          "fr": "Un croissant ?",
+          "en": "A croissant?"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Non merci, je n'ai pas faim.",
+          "en": "No thank you, I'm not hungry."
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "D'accord !",
+          "en": "OK!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "non merci",
+      "question": "What does this mean?",
+      "options": [
+        "Yes, please",
+        "No thank you",
+        "Excuse me",
+        "You're welcome"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "reveal",
+      "answer_label": "B",
+      "fr": "non merci",
+      "pron": "noh mair-SEE",
+      "en": "No thank you",
+      "note": [
+        "Put merci after non to stay polite.",
+        "Warmer than just saying non."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: excusez-moi (excuse me)"
+    }
+  ],
+  "reviewed_by": "Auto-approved at Saba's request on 2026-11-23 for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-11-25T14:00:00+00:00"
+}

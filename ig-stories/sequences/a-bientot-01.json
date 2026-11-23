@@ -1,0 +1,86 @@
+{
+  "id": "a-bientot-01",
+  "order": 32,
+  "title": "à bientôt - see you soon",
+  "level": "A1",
+  "scene": "park",
+  "approved": true,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“See you soon”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "à bientôt",
+      "pron": "a bee-an-TOH",
+      "en": "see you soon",
+      "pos": "phrase",
+      "example": {
+        "fr": "À bientôt, Marinette !",
+        "pron": "a bee-an-TOH ma-ree-NET",
+        "en": "See you soon, Marinette!"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "park",
+      "title": "À bientôt · See you soon",
+      "lines": [
+        {
+          "speaker": "Adrien",
+          "fr": "Je dois partir. À bientôt !",
+          "en": "I have to go. See you soon!"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "À bientôt, Adrien !",
+          "en": "See you soon, Adrien!"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Bonne journée !",
+          "en": "Have a nice day!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "à bientôt",
+      "question": "What does this mean?",
+      "options": [
+        "See you tomorrow",
+        "See you soon",
+        "Good evening",
+        "Have fun"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "reveal",
+      "answer_label": "B",
+      "fr": "à bientôt",
+      "pron": "a bee-an-TOH",
+      "en": "See you soon",
+      "note": [
+        "Softer and vaguer than à demain (see you tomorrow).",
+        "No date is set. Just soon!"
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: bon appétit (enjoy your meal)"
+    }
+  ],
+  "reviewed_by": "Auto-approved at Saba's request on 2026-11-23 for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-11-29T14:00:00+00:00"
+}

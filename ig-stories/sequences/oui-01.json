@@ -1,0 +1,86 @@
+{
+  "id": "oui-01",
+  "order": 27,
+  "title": "oui - yes",
+  "level": "A1",
+  "scene": "cafe",
+  "approved": true,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“Yes”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "oui",
+      "pron": "wee",
+      "en": "yes",
+      "pos": "phrase",
+      "example": {
+        "fr": "Oui, merci !",
+        "pron": "wee mair-SEE",
+        "en": "Yes, thank you!"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "cafe",
+      "title": "Oui · Yes",
+      "lines": [
+        {
+          "speaker": "Marinette",
+          "fr": "Un café, Adrien ?",
+          "en": "A coffee, Adrien?"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Oui, merci !",
+          "en": "Yes, thank you!"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Voilà !",
+          "en": "Here you go!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "oui",
+      "question": "What does this mean?",
+      "options": [
+        "No",
+        "Yes",
+        "Maybe",
+        "Please"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "reveal",
+      "answer_label": "B",
+      "fr": "oui",
+      "pron": "wee",
+      "en": "Yes",
+      "note": [
+        "Oui is yes. Say non for no.",
+        "Casually, people also say ouais = yeah."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: non merci (no thank you)"
+    }
+  ],
+  "reviewed_by": "Auto-approved at Saba's request on 2026-11-23 for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-11-24T14:00:00+00:00"
+}

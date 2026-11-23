@@ -1,0 +1,86 @@
+{
+  "id": "bienvenue-01",
+  "order": 31,
+  "title": "bienvenue - welcome",
+  "level": "A1",
+  "scene": "apartment",
+  "approved": true,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“Welcome”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "bienvenue",
+      "pron": "bee-an-vuh-NEW",
+      "en": "welcome",
+      "pos": "phrase",
+      "example": {
+        "fr": "Bienvenue chez moi !",
+        "pron": "bee-an-vuh-NEW shay MWAH",
+        "en": "Welcome to my place!"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "apartment",
+      "title": "Bienvenue · Welcome",
+      "lines": [
+        {
+          "speaker": "Marinette",
+          "fr": "Bienvenue chez moi, Adrien !",
+          "en": "Welcome to my place, Adrien!"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Merci ! C'est joli.",
+          "en": "Thanks! It's pretty."
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Entre !",
+          "en": "Come in!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "bienvenue",
+      "question": "What does this mean?",
+      "options": [
+        "Welcome",
+        "Goodbye",
+        "Sorry",
+        "Thank you"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "reveal",
+      "answer_label": "A",
+      "fr": "bienvenue",
+      "pron": "bee-an-vuh-NEW",
+      "en": "Welcome",
+      "note": [
+        "Bienvenue chez moi = welcome to my home.",
+        "Bienvenue à Paris ! = welcome to Paris!"
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: à bientôt (see you soon)"
+    }
+  ],
+  "reviewed_by": "Auto-approved at Saba's request on 2026-11-23 for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-11-28T14:00:00+00:00"
+}

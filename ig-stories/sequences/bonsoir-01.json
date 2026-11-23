@@ -1,0 +1,86 @@
+{
+  "id": "bonsoir-01",
+  "order": 30,
+  "title": "bonsoir - good evening",
+  "level": "A1",
+  "scene": "restaurant",
+  "approved": true,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“Good evening”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "bonsoir",
+      "pron": "bon-SWAR",
+      "en": "good evening",
+      "pos": "phrase",
+      "example": {
+        "fr": "Bonsoir, Marinette !",
+        "pron": "bon-SWAR ma-ree-NET",
+        "en": "Good evening, Marinette!"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "restaurant",
+      "title": "Bonsoir · Good evening",
+      "lines": [
+        {
+          "speaker": "Adrien",
+          "fr": "Bonsoir, Marinette !",
+          "en": "Good evening, Marinette!"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Bonsoir, Adrien ! Tu as faim ?",
+          "en": "Good evening, Adrien! Are you hungry?"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Oui, très faim !",
+          "en": "Yes, very hungry!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "bonsoir",
+      "question": "What does this mean?",
+      "options": [
+        "Good morning",
+        "Good evening",
+        "Good luck",
+        "Good night"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "reveal",
+      "answer_label": "B",
+      "fr": "bonsoir",
+      "pron": "bon-SWAR",
+      "en": "Good evening",
+      "note": [
+        "Use bonsoir from late afternoon on, instead of bonjour.",
+        "Going to bed? Say bonne nuit."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: bienvenue (welcome)"
+    }
+  ],
+  "reviewed_by": "Auto-approved at Saba's request on 2026-11-23 for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-11-27T14:00:00+00:00"
+}

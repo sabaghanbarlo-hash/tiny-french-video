@@ -1,0 +1,86 @@
+{
+  "id": "bon-appetit-01",
+  "order": 33,
+  "title": "bon appétit - enjoy your meal",
+  "level": "A1",
+  "scene": "restaurant",
+  "approved": true,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“Enjoy your meal”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "bon appétit",
+      "pron": "bon a-pay-TEE",
+      "en": "enjoy your meal",
+      "pos": "phrase",
+      "example": {
+        "fr": "Bon appétit, tout le monde !",
+        "pron": "bon a-pay-TEE too luh MOND",
+        "en": "Enjoy your meal, everyone!"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "restaurant",
+      "title": "Bon appétit · Enjoy your meal",
+      "lines": [
+        {
+          "speaker": "Marinette",
+          "fr": "Voilà les crêpes !",
+          "en": "Here are the crêpes!"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Super ! Merci !",
+          "en": "Great! Thanks!"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Bon appétit !",
+          "en": "Enjoy your meal!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "bon appétit",
+      "question": "What does this mean?",
+      "options": [
+        "Enjoy your meal",
+        "Good night",
+        "Cheers",
+        "The bill, please"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "reveal",
+      "answer_label": "A",
+      "fr": "bon appétit",
+      "pron": "bon a-pay-TEE",
+      "en": "Enjoy your meal",
+      "note": [
+        "Said just before eating, to everyone at the table.",
+        "A common reply: merci, à vous aussi = thanks, you too."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: je ne sais pas (I don't know)"
+    }
+  ],
+  "reviewed_by": "Auto-approved at Saba's request on 2026-11-23 for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-11-30T14:00:00+00:00"
+}

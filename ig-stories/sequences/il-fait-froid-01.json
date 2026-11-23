@@ -1,0 +1,86 @@
+{
+  "id": "il-fait-froid-01",
+  "order": 38,
+  "title": "il fait froid - it's cold",
+  "level": "A1",
+  "scene": "street",
+  "approved": true,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“It's cold”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "il fait froid",
+      "pron": "eel fay FRWAH",
+      "en": "it's cold",
+      "pos": "phrase",
+      "example": {
+        "fr": "Il fait froid aujourd'hui !",
+        "pron": "eel fay FRWAH o-zhoor-DWEE",
+        "en": "It's cold today!"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "street",
+      "title": "Il fait froid · It's cold",
+      "lines": [
+        {
+          "speaker": "Marinette",
+          "fr": "Brr ! Il fait froid !",
+          "en": "Brr! It's cold!"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Oui, très froid. Un chocolat chaud ?",
+          "en": "Yes, very cold. A hot chocolate?"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Bonne idée !",
+          "en": "Good idea!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "il fait froid",
+      "question": "What does this mean?",
+      "options": [
+        "It's hot",
+        "It's raining",
+        "It's cold",
+        "It's late"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "reveal",
+      "answer_label": "C",
+      "fr": "il fait froid",
+      "pron": "eel fay FRWAH",
+      "en": "It's cold",
+      "note": [
+        "For weather, French uses il fait: il fait chaud = it's hot.",
+        "Feeling cold yourself? Say j'ai froid."
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: félicitations (congratulations)"
+    }
+  ],
+  "reviewed_by": "Auto-approved at Saba's request on 2026-11-23 for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-12-05T14:00:00+00:00"
+}

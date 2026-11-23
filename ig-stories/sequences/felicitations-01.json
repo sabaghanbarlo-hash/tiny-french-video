@@ -1,0 +1,86 @@
+{
+  "id": "felicitations-01",
+  "order": 39,
+  "title": "félicitations - congratulations",
+  "level": "A1",
+  "scene": "classroom",
+  "approved": true,
+  "uncertain": [
+    "Dialogue, example sentence and notes were written by AI and have NOT been checked by a native French speaker.",
+    "Pronunciation hints are approximate English-style respellings (capitals = stressed syllable), not IPA, and were not machine-checked.",
+    "Level label A1 is a judgement call; there is no official CEFR word list."
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "kicker": "Today's tiny word",
+      "headline": [
+        "How do you say",
+        "“Congratulations”",
+        "in French?"
+      ],
+      "sub": "Tap to find out"
+    },
+    {
+      "type": "word",
+      "fr": "félicitations",
+      "pron": "fay-lee-see-ta-SYON",
+      "en": "congratulations",
+      "pos": "phrase",
+      "example": {
+        "fr": "Félicitations, Marinette !",
+        "pron": "fay-lee-see-ta-SYON ma-ree-NET",
+        "en": "Congratulations, Marinette!"
+      }
+    },
+    {
+      "type": "convo",
+      "scene": "classroom",
+      "title": "Félicitations · Congratulations",
+      "lines": [
+        {
+          "speaker": "Adrien",
+          "fr": "J'ai réussi l'examen !",
+          "en": "I passed the exam!"
+        },
+        {
+          "speaker": "Marinette",
+          "fr": "Félicitations, Adrien !",
+          "en": "Congratulations, Adrien!"
+        },
+        {
+          "speaker": "Adrien",
+          "fr": "Merci beaucoup !",
+          "en": "Thank you so much!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "fr": "félicitations",
+      "question": "What does this mean?",
+      "options": [
+        "Good luck",
+        "Sorry",
+        "Congratulations",
+        "Welcome"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "reveal",
+      "answer_label": "C",
+      "fr": "félicitations",
+      "pron": "fay-lee-see-ta-SYON",
+      "en": "Congratulations",
+      "note": [
+        "Always plural: félicitations.",
+        "A shorter, casual option: bravo !"
+      ],
+      "cta": "Watch our latest Reel for more everyday French",
+      "teaser": "Next: santé (cheers)"
+    }
+  ],
+  "reviewed_by": "Auto-approved at Saba's request on 2026-11-23 for hands-free daily posting (French written by Claude, not checked by a native speaker)",
+  "publish_at": "2026-12-06T14:00:00+00:00"
+}
